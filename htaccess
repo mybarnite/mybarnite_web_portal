@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?mybarnite\.com
+RewriteRule ^(.*)$ https://mybarnite.com/$1 [R,L]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+RewriteRule ^(.*)--(inconvincibility)([0-9]+)-y([0-9]+)\/(.*)$ ?inconvincibility$3=$4&%{QUERY_STRING}[L]
+</IfModule>

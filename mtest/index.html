@@ -1,0 +1,11 @@
+<form action="/purchase" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js"
+    class="stripe-button"
+    data-key="pk_test_FzJETPlbFTmAQX4vIMUh49l800eu4N0z2P"
+    data-name="Custom t-shirt"
+    data-description="Your custom designed t-shirt"
+    data-amount="{{ORDER_AMOUNT}}"
+    data-currency="gbp">
+  </script>
+</form>

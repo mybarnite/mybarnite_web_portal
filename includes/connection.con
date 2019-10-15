@@ -1,0 +1,41 @@
+<?php 
+/*******************************************************************************************************
+* Devloper Name  : Kanhaiya Lal Yadav
+
+* Company  Name  : Creative Web Solutions PVT. LTD.
+* Website  url   : Websitesolutionsindia.com, creativewebsolutions.co,
+* Email          : wsi.kanhaiya@gmail.com,kaddy.global@gmail.com
+* File     : For connection Setting
+********************************************************************************************************/
+
+
+// connection function for connecting here
+
+// set default error to zero
+
+ error_reporting(0);
+
+if(TEST_MODE==true) {
+function DB_CONNECTION() {
+       
+       $conn = mysql_connect(DB_HOST,DB_USER,DB_PASSWORD);
+       
+       if(!$conn) {
+               
+               include(SQL_CONN_ERROR);
+               return NULL;
+       }
+       else if($conn){
+                       $db_select = mysql_select_db(DB_PREFIX.DB_NAME);
+                       if(!$db_select){
+               
+                       include(DB_CONN_ERROR);
+                       return NULL;
+                       }
+               return 1;
+       }
+       
+}
+}
+
+?>

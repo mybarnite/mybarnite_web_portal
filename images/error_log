@@ -1,0 +1,5 @@
+[05-Jan-2016 06:04:51 UTC] PHP Fatal error:  Call to undefined function DB_CONNECTION() in /home/mybarnite/public_html/images/index.php on line 6
+[05-Jan-2016 16:30:07 UTC] PHP Fatal error:  Call to undefined function DB_CONNECTION() in /home/mybarnite/public_html/images/index.php on line 6
+[09-Oct-2016 08:45:06 UTC] PHP Fatal error:  Call to undefined function DB_CONNECTION() in /home/mybarnite/public_html/images/index.php on line 6
+[07-Aug-2017 19:07:43 UTC] PHP Fatal error:  Call to undefined function DB_CONNECTION() in /home/mybarnite/public_html/images/index.php on line 6
+[23-Sep-2017 14:10:25 UTC] PHP Fatal error:  Call to undefined function DB_CONNECTION() in /home/mybarnite/public_html/images/index.php on line 6

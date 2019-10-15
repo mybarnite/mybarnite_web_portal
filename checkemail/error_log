@@ -1,0 +1,3 @@
+[16-Sep-2018 14:25:54 UTC] PHP Warning:  require(checkemail/class.phpmailer.php): failed to open stream: No such file or directory in /home/mybarnite/public_html/newbarnite/checkemail/mail.php on line 2
+[16-Sep-2018 14:25:54 UTC] PHP Warning:  require(checkemail/class.phpmailer.php): failed to open stream: No such file or directory in /home/mybarnite/public_html/newbarnite/checkemail/mail.php on line 2
+[16-Sep-2018 14:25:54 UTC] PHP Fatal error:  require(): Failed opening required 'checkemail/class.phpmailer.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/mybarnite/public_html/newbarnite/checkemail/mail.php on line 2

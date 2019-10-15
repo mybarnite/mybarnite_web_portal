@@ -1,0 +1,1 @@
+<?php 	$connection=mysql_connect("localhost","barnite","Infoms321") or die("connection error");	mysql_select_db("barnite") or die("db not found");?>

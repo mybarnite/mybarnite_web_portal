@@ -1,0 +1,5 @@
+[31-Aug-2015 08:02:50 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/msglobalinc/public_html/recentportfolio/barnite/app/SignUp.php on line 7
+[22-Sep-2015 08:30:46 America/New_York] PHP Fatal error:  Class 'DB_CONNECT' not found in /home/msglobalinc/public_html/recentportfolio/barnite/app/get_all_products.php on line 24
+[06-Oct-2015 14:28:07 America/New_York] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/msglobalinc/public_html/recentportfolio/barnite/app/get_all_products.php on line 9
+[06-Oct-2015 14:28:17 America/New_York] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/msglobalinc/public_html/recentportfolio/barnite/app/get_product_details.php on line 9
+[28-Oct-2015 08:08:41 America/New_York] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/msglobalinc/public_html/recentportfolio/barnite/app/forgotpass.php on line 7

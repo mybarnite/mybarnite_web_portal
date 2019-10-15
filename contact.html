@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contacts </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="icon" href="images/favicon.html" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.html" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	
+  	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jtweet.js"></script>	
+    <script type="text/javascript" src="js/jquery.cookie.js"></script> 
+	<script type="text/javascript">                                     
+		$(document).ready(function()
+		{ $("#ajax-contact-form").submit(function() 
+		  { var str = $(this).serialize(); $.ajax( 
+			{ type: "POST", url: "contact.php", data: str, success: function(msg)
+					{ if(msg == 'OK') // Message Sent? Show the 'Thank You' message and hide the form
+						{ result = '<div class="notification_ok">Your message has been sent. Thank you!<br> <a href="#" onclick="freset();return false;">send another mail</a></div>'; 
+				$("#fields").hide(); 
+				} 							
+				else
+						{ 
+				  result = msg; 
+				} 
+				$("#note").html(result); 
+			  } 
+			  }); 
+			return false; 
+		  });
+		});
+		function freset()
+		  {
+			  $("#note").html(''); 	
+			document.getElementById('ajax-contact-form').reset(); 	
+			$("#fields").show();
+		  }
+	</script>  
+
+    <script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+
+</head>
+
+<body>
+<div class="bg_center">
+
+
+<!--==============================Header=================================-->
+<header>
+    <div class="container">
+    	<div class="row">
+        	<div class="span5">
+            	<div class="clearfix">
+                    <div class="clearfix header-block-pad">
+                        <h1 style="font-size:30px;">LOGO HERE</h1>						
+                    </div>
+                </div>
+            </div>
+			
+        	<div class="span7 top_right">
+				<!--==============================Search=========================-->
+				<p class="pull-left">Search:</p>
+				<form id="search-form"  method="GET" accept-charset="utf-8" class="navbar-form" >
+					<input type="text" name="s" onBlur="if(this.value=='') this.value=''" onFocus="if(this.value =='' ) this.value=''"  >
+					<a href="#" onClick="document.getElementById('search-form').submit()"></a>
+				</form>
+				<!--=============  On air now and listen live  ================-->
+				<a href="#" class="listen_live">SIGN UP</a>
+				<a href="#" class="on_air">SIGN IN</a>
+			</div>   
+      </div>   
+    </div>
+    
+    <!--==============================Nav=================================-->          
+    <div id="nav_section">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="navbar navbar_ clearfix">
+              <div class="navbar-inner navbar-inner_">
+                  <div class="container">
+                      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse_">MENU</a>                                                   
+                      <div class="nav-collapse nav-collapse_ collapse">
+                          <ul class="nav sf-menu">
+                            <li class="active li-first"><a href="index.html">Home</a></li>
+							<li ><a href="events.html">Events</a>
+							</li>
+                            <li><a href="promotion.html">Promotions</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+      </div>
+    </div>
+    <!--==============================End Nav=================================-->
+<!--==============================Map=================================--> 
+<div class="container">
+    <div class="clearfix ">
+		<div class="map span12">
+			<iframe src="https://maps.google.com/maps?f=d&amp;source=s_q&amp;hl=en&amp;geocode=%3BCd58rJoNFJvNFRBFbAId0JyX-ykJIXyUFkTCiTGGeAAEdFx2gg&amp;q=Brooklyn,+NY,+USA&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=47.704107,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;view=map&amp;t=h&amp;daddr=Brooklyn,+NY&amp;ll=40.65,-73.95&amp;spn=0.253445,0.33405&amp;output=embed"></iframe>
+		</div>
+	</div>
+</div>
+	
+</header>
+<div class="padcontent"></div>		
+
+<!--==============================Content=================================--> 
+<section id="content" class="main-content">
+  <div class="container">
+    <div class="row clearfix ">
+        
+		<div class="span6">
+        	<h2>Get in touch</h2>
+      			<div id="note"></div>
+      			<div id="fields" class="contact-form">
+      				<form id="ajax-contact-form" class="form-horizontal" action="javascript:alert('success!'); ">
+      					<div class="control-group">
+      						<label class="control-label" for="inputName">Your name:</label>
+      							<input type="text" name="name" >
+      					</div>
+      					<div class="control-group">
+      						<label class="control-label" for="inputEmail">Your Email:</label>
+      							<input type="text" name="email" >
+      					</div>
+      					<div class="control-group">
+      						<label class="control-label" for="inputEmail">Subject:</label>
+      							<input type="text" name="subject" >
+      					</div>
+      					<div class="control-group">
+      						<label class="control-label" for="inputEmail">Your Message:</label>
+      							<textarea name="content" rows="3"></textarea>
+      					</div>
+      					<button type="submit" class="btn submit btn-primary "><i class="icon-envelope icon-white"></i>&nbsp;&nbsp;submit</button>
+						<div class="clearfix"></div>
+      				</form>
+      			</div>    
+		</div>		  
+		
+		
+		<div class="span6">
+        	<h2 >Our Address</h2>
+			<div class="row clearfix ">
+				<div class="span3">
+				  <p>
+					0000 Street, <br />
+					City, Country.<br />
+					Telephone: +0 000 123 4567<br />
+					E-mail: <a href="#">email@barnight.com</a>
+				  </p>
+			      <div class="padcontent_small"></div>		
+				</div>
+				
+			</div>
+
+        	
+			
+			<h2>Useful Information</h2>
+
+			<p class="max-size1">
+				<strong>
+					content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here . 
+				</strong>
+				
+				content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here content geos here .
+			</p>
+  		</div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!--==============================Bottom content=================================--> 
+<aside id="bottom-content">
+  <div class="container divider">
+    <div class="row ">
+        <div class="clearfix ">
+			  <div class="span4 ">
+				<h2>Most popular Nightclubs</h2>
+				<a href="#">
+					<img src="images/img5.jpg" alt="" width="61" height="61" border="0" class="alignleft border_img" />
+				</a>
+				<p>
+					<strong>NightClub Name here </strong>
+				Content goes here Content goes here Content goes here.
+				Content goes here Content goes here.
+				</p>
+				<div class="clearfix"></div>
+				
+				<a href="#">
+					<img src="images/img5.jpg" alt="" width="61" height="61" border="0" class="alignleft border_img" />
+				</a>
+				<p>
+					<strong>NightClub Name here </strong>
+				Content goes here Content goes here Content goes here.
+				Content goes here Content goes here.
+				</p>
+				<div class="clearfix"></div>
+				
+				
+				<div class="padcontent"></div>
+			  </div>
+			  
+			  <div class="span4 ">
+				<h2><img src="images/twitter.png" alt="" width="45" height="38" border="0" />&nbsp;&nbsp;Latest tweets</h2>
+				  <div class="clearfix"></div>
+				
+				<a href="#">
+					<img src="images/img5.jpg" alt="" width="61" height="61" border="0" class="alignleft border_img" />
+				</a>
+				<p>
+					<strong>Your Caption here </strong>
+				Content goes here Content goes here Content goes here.
+				Content goes here Content goes here.
+				</p>
+				 <div class="clearfix"></div>
+				
+				<a href="#">
+					<img src="images/img5.jpg" alt="" width="61" height="61" border="0" class="alignleft border_img" />
+				</a>
+				<p>
+					<strong>Your Caption here </strong>
+				Content goes here Content goes here Content goes here.
+				Content goes here Content goes here.
+				</p>
+				
+			  </div>
+			  
+			  <div class="span3 offset1 ">
+				<h2>Your Caption here</h2>
+				<a href="#">
+					<img src="images/img4.jpg" alt=""  border="0" class="aligncenter border_img" />
+				</a>
+				<p>
+					<strong>NightClub Name here </strong>
+				Content goes here Content goes here Content goes here.
+				Content goes here Content goes here.
+				</p>
+				
+				<div class="padcontent"></div>
+			  </div>
+        </div>
+   
+    </div>
+	
+    <div class="row copyright">
+      <div class="span8">
+	
+				Copyright © 2015. Designed &amp; Developed by <a href="http://www.msglobalinc.net/" class="color">MS Globalinc.net</a>
+				
+      </div>
+
+	<!-- {%FOOTER_LINK} -->
+      <div class="span4">
+			<ul class="footer_links">
+				  <li><a href="#">Privacy Policy</a></li>
+				  <li>|</li>
+				  <li><a href="#">Contact Us</a></li>
+			</ul>       
+      </div>
+    </div>
+	
+	
+  </div>    
+</aside>
+
+
+</div>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+
+<!-- Mirrored from www.bootstrap-template.com/templates/bootstrap-templates/300111589/template/index-5.html by HTTrack Website Copier/3.x [XR&CO'2013], Fri, 24 Jul 2015 11:01:05 GMT -->
+</html>

@@ -1,0 +1,70 @@
+<?php 
+/*******************************************************************************************************
+* Devloper Name  : Kanhaiya Lal Yadav
+
+* Company  Name  : Creative Web Solutions PVT. LTD. 
+* Website  url   : Websitesolutionsindia.com, creativewebsolutions.co, 
+* Email          : wsi.kanhaiya@gmail.com,kaddy.global@gmail.com
+* File 			 : For Configuration Setting 
+********************************************************************************************************/
+session_start(); // SESSION START HERE
+
+define('TEMP_SESSION', session_id()); // auto generated sessin id
+
+define('SITE_PATH', "http://localhost/consultplusoriginal/"); // website path defined here
+
+define('LOGO_PATH', '../images/logo/'); // logo path defined
+
+define('PLUGINS_DIR', 'includes/plugins'); // plugins directory path set
+
+define('UPLOADING_FILE_PATH', '../images/uploaded_files'); //uploading files default folder setting
+
+define('UPLOADING_COMPANY_IMAGES_PATH', '../images/uploaded_company_images'); // uploading deafult comapny images folder
+
+define('DEFAULT_START_YEAR', 2013); // default starting year
+
+define('DEFAULT_END_YEAR', DEFAULT_START_YEAR+1); // default end year
+
+define('SITE_NAME', 'consultpluse'); // default site name
+
+define('SITE_TITLE', 'consultpluse'); // default site title
+
+define('SITE_EMAIL', 'kaddy.global@gmail.com'); // default EMAIL ID
+
+define('TEST_MODE', true); // testing mode for local
+
+define('DEFAULT_CURRANCY_SYMBOL', '$'); //default currency symbol here 
+
+define('DEFAULT_CURRANCY_PREFIX', 'USD'); // default prefix currency tag
+
+define('DEF_PAGE_SIZE', 12); // default page size
+
+define('ADMIN_DIR', 'consultpluse'); // default admin directory
+
+define('DB_HOST', 'localhost'); // default server host type
+
+define('DB_USER','root'); // default databse user name
+
+define('DB_PASSWORD',''); // default database password 
+
+define('DB_NAME','sidm1716_consult'); // default database name
+
+define('DB_PREFIX',''); // default database prefix name
+
+define('SUPER_CSS','css'); // default cascade style sheet
+
+define('SUPER_JS','js'); // default cascade style sheet
+
+define('SUPER_IMAGES','images'); // default cascade style sheet
+
+
+
+define('SQL_CONN_ERROR','includes/errors/01000011010011110100111001001110.log'); // sql connection connection error file
+
+define('DB_CONN_ERROR','includes/errors/0100010001000010.log'); // databse connection error file
+
+define('FILE_NOT_FOUND','includes/errors/0100011001001001010011000100010101011111010011100100111101010100010111110100011001001111010101010100111001000100.log'); // AUTHENTICATE SESSION VARIABLE HITTING ERROR IF NOT AVAILABLE
+
+
+
+?>

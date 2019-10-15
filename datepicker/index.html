@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+
+  <title>Timepicker for jQuery &ndash; Demos and Documentation</title>
+  <meta name="description" content="A lightweight, customizable jQuery timepicker plugin inspired by Google Calendar. Add a user-friendly javascript timepicker dropdown to your app in minutes." />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="jquery.timepicker.js"></script>
+  <link rel="stylesheet" type="text/css" href="jquery.timepicker.css" />
+
+  <script type="text/javascript" src="lib/bootstrap-datepicker.js"></script>
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap-datepicker.css" />
+
+  
+</head>
+
+<body>
+    
+    <section id="examples">
+     
+
+        <article>
+            <div class="demo">
+                <h2>Datepair Plugin Example</h2>
+
+                <p>jquery-timepicker is designed to work with the <a href="http://jonthornton.github.com/Datepair.js">jquery-datepair plugin</a>.
+
+                <div id="datepairExample">
+                    <p>
+						<input type="text" class="date start" />
+						<input type="text" class="time start" />
+					</p>
+					<p>
+						<input type="text" class="date end" />
+						<input type="text" class="time end" />
+                    </p>
+                </div>
+            </div>
+
+            <script src="http://jonthornton.github.io/Datepair.js/dist/datepair.js"></script>
+            <script src="http://jonthornton.github.io/Datepair.js/dist/jquery.datepair.js"></script>
+            <script>
+                $('#datepairExample .time').timepicker({
+                    'showDuration': true,
+                    'timeFormat': 'g:ia'
+                });
+
+                $('#datepairExample .date').datepicker({
+                    'format': 'm/d/yyyy',
+                    'autoclose': true
+                });
+
+                $('#datepairExample').datepair();
+            </script>
+
+            <pre class="code" data-language="javascript">
+&lt;p id="datepairExample"&gt;
+    &lt;input type="text" class="date start" /&gt;
+    &lt;input type="text" class="time start" /&gt; to
+    &lt;input type="text" class="time end" /&gt;
+    &lt;input type="text" class="date end" /&gt;
+&lt;/p&gt;
+
+&lt;script type="text/javascript" src="datepair.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="jquery.datepair.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // initialize input widgets first
+    $('#datepairExample .time').timepicker({
+        'showDuration': true,
+        'timeFormat': 'g:ia'
+    });
+
+    $('#datepairExample .date').datepicker({
+        'format': 'yyyy-m-d',
+        'autoclose': true
+    });
+
+    // initialize datepair
+    $('#datepairExample').datepair();
+&lt;/script&gt;</pre>
+
+        </article>
+    </section>
+
+    </section>
+</div></body>
+</html>

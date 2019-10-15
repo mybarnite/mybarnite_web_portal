@@ -1,0 +1,17 @@
+[30-Jul-2019 05:36:59 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message '(#100) Tried accessing nonexisting field (e-mail) on node type (User)' in /home/mybarnite/public_html/fb/src/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/mybarnite/public_html/fb/src/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/mybarnite/public_html/fb/fbconfig.php(31): Facebook\FacebookRequest->execute()
+#2 {main}
+  thrown in /home/mybarnite/public_html/fb/src/Facebook/FacebookRequestException.php on line 104
+[30-Jul-2019 05:38:38 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message '(#100) Tried accessing nonexisting field (e-mail) on node type (User)' in /home/mybarnite/public_html/fb/src/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/mybarnite/public_html/fb/src/Facebook/FacebookRequest.php(268): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/mybarnite/public_html/fb/fbconfig.php(31): Facebook\FacebookRequest->execute()
+#2 {main}
+  thrown in /home/mybarnite/public_html/fb/src/Facebook/FacebookRequestException.php on line 104
+[30-Jul-2019 05:39:32 UTC] PHP Warning:  Missing argument 1 for Facebook\GraphObject::getProperty(), called in /home/mybarnite/public_html/fb/fbconfig.php on line 38 and defined in /home/mybarnite/public_html/fb/src/Facebook/GraphObject.php on line 104
+[30-Jul-2019 05:39:32 UTC] PHP Notice:  Undefined variable: name in /home/mybarnite/public_html/fb/src/Facebook/GraphObject.php on line 106
+[30-Jul-2019 07:04:33 UTC] PHP Parse error:  syntax error, unexpected 'fields' (T_STRING) in /home/mybarnite/public_html/fb/fbconfig.php on line 30
+[30-Jul-2019 07:04:48 UTC] PHP Parse error:  syntax error, unexpected 'fields' (T_STRING) in /home/mybarnite/public_html/fb/fbconfig.php on line 30
+[30-Jul-2019 07:04:52 UTC] PHP Parse error:  syntax error, unexpected 'fields' (T_STRING) in /home/mybarnite/public_html/fb/fbconfig.php on line 30

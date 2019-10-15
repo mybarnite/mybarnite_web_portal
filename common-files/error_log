@@ -1,0 +1,10 @@
+[02-May-2018 16:26:44 UTC] PHP Fatal error:  Call to a member function update() on a non-object in /home/mybarnite/public_html/common-files/updateOptinOptOutUser.php on line 10
+[07-Sep-2018 07:06:26 UTC] PHP Notice:  Constant SITE_PATH already defined in /home/mybarnite/public_html/newbarnite/admin/includes/config.cfg on line 6
+[11-Sep-2018 07:33:21 UTC] PHP Notice:  Constant SITE_PATH already defined in /home/mybarnite/public_html/newbarnite/admin/includes/config.cfg on line 6
+[11-Sep-2018 07:34:34 UTC] PHP Notice:  Constant SITE_PATH already defined in /home/mybarnite/public_html/newbarnite/admin/includes/config.cfg on line 6
+[11-Sep-2018 07:34:40 UTC] PHP Notice:  Constant SITE_PATH already defined in /home/mybarnite/public_html/newbarnite/admin/includes/config.cfg on line 6
+[17-Nov-2018 19:14:28 UTC] PHP Notice:  Constant SITE_PATH already defined in /home/mybarnite/public_html/admin/includes/config.cfg on line 6
+[17-Nov-2018 19:23:21 UTC] PHP Notice:  Constant SITE_PATH already defined in /home/mybarnite/public_html/admin/includes/config.cfg on line 6
+[16-Dec-2018 21:54:28 UTC] PHP Notice:  Constant SITE_PATH already defined in /home/mybarnite/public_html/admin/includes/config.cfg on line 6
+[26-May-2019 08:45:59 UTC] PHP Notice:  Constant SITE_PATH already defined in /home/mybarnite/public_html/admin/includes/config.cfg on line 6
+[08-Jun-2019 17:16:40 UTC] PHP Notice:  Constant SITE_PATH already defined in /home/mybarnite/public_html/admin/includes/config.cfg on line 6

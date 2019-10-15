@@ -1,0 +1,285 @@
+[22-Aug-2018 17:40:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:04:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:05:31 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:05:31 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(12): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[22-Aug-2018 18:06:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:06:03 UTC] PHP Notice:  Undefined property: Abraham\TwitterOAuth\TwitterOAuth::$http_code in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 22
+[22-Aug-2018 18:06:44 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:06:45 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(12): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[22-Aug-2018 18:07:13 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:09:09 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:09:09 UTC] PHP Notice:  Undefined property: Abraham\TwitterOAuth\TwitterOAuth::$httpCode in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 21
+[22-Aug-2018 18:10:00 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:10:01 UTC] PHP Fatal error:  Cannot access private property Abraham\TwitterOAuth\TwitterOAuth::$response in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 21
+[22-Aug-2018 18:10:49 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:10:50 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[22-Aug-2018 18:13:37 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:13:38 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[22-Aug-2018 18:13:43 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:13:43 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(12): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[22-Aug-2018 18:14:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:14:54 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[22-Aug-2018 18:15:40 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:15:40 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(12): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[22-Aug-2018 18:15:44 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:15:44 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(12): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[22-Aug-2018 18:16:13 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:16:14 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[22-Aug-2018 18:19:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:19:12 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[22-Aug-2018 18:19:18 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[22-Aug-2018 18:19:18 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(12): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[23-Aug-2018 17:28:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 17:28:20 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[23-Aug-2018 17:36:43 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 17:51:22 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 17:51:23 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 26
+[23-Aug-2018 17:52:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 17:52:03 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 26
+[23-Aug-2018 17:52:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 17:52:19 UTC] PHP Notice:  Undefined index: oauth_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 9
+[23-Aug-2018 17:52:19 UTC] PHP Notice:  Undefined index: oauth_verifier in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 9
+[23-Aug-2018 17:52:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 17:52:36 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(12): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[23-Aug-2018 17:53:01 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 17:53:02 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 26
+[23-Aug-2018 17:56:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 17:56:37 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(12): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[23-Aug-2018 18:01:33 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:02:13 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:05:28 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:07:09 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:07:09 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 17
+[23-Aug-2018 18:07:09 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 17
+[23-Aug-2018 18:07:09 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 21
+[23-Aug-2018 18:07:09 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 22
+[23-Aug-2018 18:07:09 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[23-Aug-2018 18:07:09 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 31
+[23-Aug-2018 18:07:41 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:07:41 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 17
+[23-Aug-2018 18:07:41 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 17
+[23-Aug-2018 18:07:41 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 21
+[23-Aug-2018 18:07:41 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 22
+[23-Aug-2018 18:07:41 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[23-Aug-2018 18:07:41 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 31
+[23-Aug-2018 18:10:15 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:10:15 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 17
+[23-Aug-2018 18:10:15 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 17
+[23-Aug-2018 18:10:15 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 21
+[23-Aug-2018 18:10:15 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 22
+[23-Aug-2018 18:10:15 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[23-Aug-2018 18:10:15 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 31
+[23-Aug-2018 18:10:35 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:10:35 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 9
+[23-Aug-2018 18:11:26 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:11:26 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 17
+[23-Aug-2018 18:11:26 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 17
+[23-Aug-2018 18:11:27 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 31
+[23-Aug-2018 18:11:44 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:11:44 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 17
+[23-Aug-2018 18:11:44 UTC] PHP Notice:  Undefined variable: access_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 17
+[23-Aug-2018 18:11:45 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 31
+[23-Aug-2018 18:11:56 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:11:57 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(15): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[23-Aug-2018 18:12:28 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:12:29 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(15): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[23-Aug-2018 18:12:52 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:12:52 UTC] PHP Notice:  Undefined index: oauth_token_secret in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 17
+[23-Aug-2018 18:12:53 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(18): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[23-Aug-2018 18:13:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:13:39 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(15): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[23-Aug-2018 18:14:09 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:14:40 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:14:40 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(15): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[23-Aug-2018 18:15:42 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:15:42 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(15): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[23-Aug-2018 18:15:51 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:15:51 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(15): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[23-Aug-2018 18:17:25 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:19:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:19:12 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(16): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[23-Aug-2018 18:19:37 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:19:38 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 28
+[23-Aug-2018 18:19:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[23-Aug-2018 18:19:59 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Reverse auth credentials are invalid' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(16): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[23-Aug-2018 18:34:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[24-Aug-2018 07:22:21 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[24-Aug-2018 07:22:21 UTC] PHP Notice:  Undefined index: request_vars in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 87
+[24-Aug-2018 07:22:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 88
+[24-Aug-2018 07:22:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 89
+[24-Aug-2018 07:22:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 91
+[24-Aug-2018 07:22:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 110
+[24-Aug-2018 07:22:21 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 121
+[24-Aug-2018 07:23:18 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[24-Aug-2018 07:23:19 UTC] PHP Notice:  Undefined index: request_vars in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 87
+[24-Aug-2018 07:23:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 88
+[24-Aug-2018 07:23:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 89
+[24-Aug-2018 07:23:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 91
+[24-Aug-2018 07:23:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 110
+[24-Aug-2018 07:23:19 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 121
+[24-Aug-2018 07:24:17 UTC] PHP Parse error:  syntax error, unexpected ''.$user_name.'' (T_CONSTANT_ENCAPSED_STRING) in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 87
+[24-Aug-2018 07:25:47 UTC] PHP Parse error:  syntax error, unexpected ''.$user_name.'' (T_CONSTANT_ENCAPSED_STRING) in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 87
+[24-Aug-2018 08:21:46 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 66
+[24-Aug-2018 08:21:46 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[24-Aug-2018 08:21:46 UTC] PHP Notice:  Undefined index: oauth_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 12
+[24-Aug-2018 08:21:46 UTC] PHP Notice:  Undefined index: oauth_token_secret in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 12
+[24-Aug-2018 08:21:46 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[24-Aug-2018 09:44:37 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 66
+[24-Aug-2018 09:44:37 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[24-Aug-2018 09:44:37 UTC] PHP Notice:  Undefined index: oauth_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 12
+[24-Aug-2018 09:44:37 UTC] PHP Notice:  Undefined index: oauth_token_secret in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 12
+[24-Aug-2018 09:44:37 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[24-Aug-2018 09:53:04 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 66
+[24-Aug-2018 09:53:04 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[24-Aug-2018 09:53:04 UTC] PHP Notice:  Undefined index: oauth_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 12
+[24-Aug-2018 09:53:04 UTC] PHP Notice:  Undefined index: oauth_token_secret in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 12
+[24-Aug-2018 09:53:05 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[24-Aug-2018 09:54:57 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 66
+[24-Aug-2018 09:54:57 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/mybarnite/public_html/newbarnite/twitterlogin/config.php on line 11
+[24-Aug-2018 09:54:57 UTC] PHP Notice:  Undefined index: oauth_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 12
+[24-Aug-2018 09:54:57 UTC] PHP Notice:  Undefined index: oauth_token_secret in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 12
+[24-Aug-2018 09:54:58 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[24-Aug-2018 10:20:05 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 66
+[24-Aug-2018 10:20:06 UTC] PHP Fatal error:  Call to undefined method mysqli::select() in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[24-Aug-2018 10:30:08 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 66
+[24-Aug-2018 10:30:09 UTC] PHP Fatal error:  Call to undefined method mysqli::select() in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 27
+[24-Aug-2018 10:30:11 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 66
+[24-Aug-2018 10:30:12 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(15): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[24-Aug-2018 10:30:16 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 66
+[24-Aug-2018 10:30:17 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Deze functionaliteit is tijdelijk niet beschikbaar.' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(15): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[25-Aug-2018 06:38:17 UTC] PHP Notice:  Undefined index: oauth_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 10
+[25-Aug-2018 06:38:17 UTC] PHP Notice:  Undefined index: oauth_verifier in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 10
+[25-Aug-2018 12:41:20 UTC] PHP Notice:  Undefined index: oauth_token in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 12
+[25-Aug-2018 12:41:20 UTC] PHP Notice:  Undefined index: oauth_token_secret in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 12
+[25-Aug-2018 12:41:20 UTC] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Reverse auth credentials are invalid' in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php(13): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/access_to...', Array)
+#1 {main}
+  thrown in /home/mybarnite/public_html/newbarnite/twitterlogin/lib/src/TwitterOAuth.php on line 138
+[25-Aug-2018 12:41:59 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[25-Aug-2018 12:41:59 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 07:16:00 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 07:16:00 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 07:30:00 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 07:30:00 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 08:09:54 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 08:09:54 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 08:11:45 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 08:11:45 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 08:27:57 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 08:27:57 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 08:27:57 UTC] PHP Notice:  Undefined variable: name in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 35
+[19-Sep-2018 08:27:57 UTC] PHP Notice:  Undefined variable: name in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 38
+[19-Sep-2018 08:28:27 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 08:28:27 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 08:28:27 UTC] PHP Notice:  Undefined variable: name in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 35
+[19-Sep-2018 08:28:27 UTC] PHP Notice:  Undefined variable: name in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 38
+[19-Sep-2018 08:33:16 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 08:33:16 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 08:33:16 UTC] PHP Notice:  Undefined variable: name in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 35
+[19-Sep-2018 08:33:16 UTC] PHP Notice:  Undefined variable: name in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 38
+[19-Sep-2018 08:34:51 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 08:34:51 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 08:38:19 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[19-Sep-2018 08:38:19 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[20-Sep-2018 06:02:23 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[20-Sep-2018 06:02:23 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[20-Sep-2018 06:02:23 UTC] PHP Warning:  mysql_insert_id(): Access denied for user 'mybarnite'@'localhost' (using password: NO) in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 50
+[20-Sep-2018 06:02:23 UTC] PHP Warning:  mysql_insert_id(): A link to the server could not be established in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 50
+[20-Sep-2018 06:05:33 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[20-Sep-2018 06:05:33 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[20-Sep-2018 06:05:33 UTC] PHP Warning:  mysqli_insert_id() expects exactly 1 parameter, 0 given in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 50
+[20-Sep-2018 06:09:43 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[20-Sep-2018 06:09:43 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[20-Sep-2018 06:10:23 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[20-Sep-2018 06:10:23 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/newbarnite/twitterlogin/twitter_back.php on line 25
+[21-Nov-2018 17:59:16 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/twitterlogin/twitter_back.php on line 25
+[21-Nov-2018 17:59:16 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/twitterlogin/twitter_back.php on line 25
+[21-Nov-2018 18:02:01 UTC] PHP Notice:  Undefined index: oauth_token in /home/mybarnite/public_html/twitterlogin/twitter_back.php on line 12
+[21-Nov-2018 18:02:01 UTC] PHP Notice:  Undefined index: oauth_token_secret in /home/mybarnite/public_html/twitterlogin/twitter_back.php on line 12
+[26-Jul-2019 06:11:09 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/twitterlogin/twitter_back.php on line 27
+[26-Jul-2019 06:11:09 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/twitterlogin/twitter_back.php on line 27
+[30-Jul-2019 05:32:33 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/twitterlogin/twitter_back.php on line 27
+[30-Jul-2019 05:32:33 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/twitterlogin/twitter_back.php on line 27
+[30-Jul-2019 06:58:10 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/twitterlogin/twitter_back.php on line 27
+[30-Jul-2019 06:58:10 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/twitterlogin/twitter_back.php on line 27
+[10-Aug-2019 08:02:41 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/twitterlogin/twitter_back.php on line 27
+[10-Aug-2019 08:02:41 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/twitterlogin/twitter_back.php on line 27
+[05-Sep-2019 17:03:40 UTC] PHP Notice:  Undefined property: stdClass::$status in /home/mybarnite/public_html/twitterlogin/twitter_back.php on line 27
+[05-Sep-2019 17:03:40 UTC] PHP Notice:  Trying to get property of non-object in /home/mybarnite/public_html/twitterlogin/twitter_back.php on line 27
