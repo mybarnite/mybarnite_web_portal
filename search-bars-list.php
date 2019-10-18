@@ -124,9 +124,9 @@ $userSql = "select * from user_register where id = ". $row['Owner_id'];
 					}
 					else
 					{
-						echo '<div class="span12">';
-						echo '<div class="alert alert-danger" style="text-align:center;">Records not found or you might have entered wrong keyword.</div>';
-						echo '</div>';
+						// echo '<div class="span12">';
+						// echo '<div class="alert alert-danger" style="text-align:center;">Records not found or you might have entered wrong keyword.</div>';
+						// echo '</div>';
 				        
 				        echo '<div class="row">';
 						echo '<div class="col-md-6">';

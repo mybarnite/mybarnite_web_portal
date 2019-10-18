@@ -98,9 +98,9 @@ $user2row1 = mysql_fetch_assoc($userQuery1);
 					}
 					else
 					{
-						echo '<div class="span12">';
-						echo '<div class="alert alert-danger" style="text-align:center;">Records not found or you might have entered wrong keyword.</div>';
-						echo '</div>';
+						// echo '<div class="span12">';
+						// echo '<div class="alert alert-danger" style="text-align:center;">Records not found or you might have entered wrong keyword.</div>';
+						// echo '</div>';
 						
 						echo '<div class="row">';
 						echo '<div class="col-md-6">';
